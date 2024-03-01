@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            echo 'Build the .NET Core applicat....ion'
+            echo 'Build the .NET Core applicat....ion.'
           }
         }
 
